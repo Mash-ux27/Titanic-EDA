@@ -1,0 +1,11 @@
+#ignore local data downloads and caches
+.cache/
+data/
+downloads/
+#ignore python runtime files and checkpoints
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+#ignore system configuration files 
+.DS_Store
+Thumbs.db
